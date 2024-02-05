@@ -31,6 +31,7 @@ function update_img() {
                     console.log(document.getElementById('img_display').innerHTML);
                     break;                
             };
+            break;
 
         case "patterdale" :
             switch (combo_box_2) {
@@ -47,5 +48,6 @@ function update_img() {
                     console.log(document.getElementById('img_display').innerHTML);
                     break;
             };
+            break;
     }
 }
