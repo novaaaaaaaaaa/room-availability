@@ -12,6 +12,7 @@
     </style>
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="assets/js/script.js"></script>
 
     <title>Documentx</title>
 </head>
@@ -21,11 +22,20 @@
 
         <div class="internal_container">
 
-            <select class="combo" name="" id="">
-                <option value="patterdale"></option>
-                <option value="buttermere"></option>
+            <select class="combo" name="combo_1" id="combo_1" onchange="update_img()">
+                <option value="patterdale">Patterdale</option>
+                <option value="buttermere">Buttermere</option>
+                <option selected disabled></option>
+            </select>
+
+            <select class="combo" name="combo_2" id="combo_2" onchange="update_img()">
+                <option value="ground_floor" id="ground_floor_select">Ground floor</option>
+                <option value="first_floor" id="first_floor_select">First floor</option>
+                <option selected disabled></option>
 
             </select>
+
+            <div id="img_display"></div>
 
         </div>
 
