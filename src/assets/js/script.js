@@ -13,8 +13,6 @@ function update_img() {
 
     console.log(combo_box_1, combo_box_2);
 
-    debugger;
-
     switch (combo_box_1) {
         case "buttermere" :
             switch (combo_box_2) {
